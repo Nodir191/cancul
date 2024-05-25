@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: #8758ff;
+}
+.number-input {
+    outline: none;
+    border-radius: 5px;
+    background: none;
+    border: 3px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: black;
+}
+.cancul-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.form {
+     padding: 20px;
+     border: 1px solid #15ca08;
+     border-radius: 15px;
+     background-color: #0d099c;
+ }
+.App {
+    text-align: center;
+}
+.grid-container {
+    background-color: #030251;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.grid-container > button {
+    margin: 0 8px;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+button:active {
+    transform: translateY(2px);
+}
+
+.column-span {
+    grid-column: span 2;
+}
+
+button:nth-child(17), button:nth-child(4) {
+    box-shadow: 0 5px;
+    font-size: 18px;
+    padding: 17px 0;
+}
+
+button:nth-child(18) {
+    color: blue;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+}
+button{
+    background-color: coral;
+}
+
